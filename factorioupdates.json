@@ -46,19 +46,11 @@
         "UpdateSourceConditionValue":"true"
     },
     {
-        "UpdateStageName":"Factorio Extract 2x",
+        "UpdateStageName":"Factorio Extract Max",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"tar -xf factorio/server/factorio.tar.xz --strip-components=1 >/dev/null 2>&1",
-        "SkipOnFailure":false
-    },
-    {
-        "UpdateStageName":"Factorio Extract 3x",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"rm -f factorio/server/factorio.tar.xz\"",
+        "UpdateSourceArgs":"-c \"cd factorio/server && /usr/bin/tar -xJf factorio.tar.xz --strip-components=1 >/dev/null 2>&1 && rm -f factorio.tar.xz\"",
         "SkipOnFailure":false
     },
     {
