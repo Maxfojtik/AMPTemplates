@@ -46,7 +46,7 @@
         "UpdateSourceConditionValue":"true"
     },
     {
-        "UpdateStageName":"Factorio Extract 2",
+        "UpdateStageName":"Factorio Extract 2x",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
@@ -54,7 +54,7 @@
         "SkipOnFailure":false
     },
     {
-        "UpdateStageName":"Factorio Extract 3",
+        "UpdateStageName":"Factorio Extract 3x",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
