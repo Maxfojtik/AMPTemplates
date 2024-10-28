@@ -46,19 +46,11 @@
         "UpdateSourceConditionValue":"true"
     },
     {
-        "UpdateStageName":"Factorio Extract 1",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"cd /mnt/AMP/FactorioServer01/factorio/server",
-        "SkipOnFailure":false
-    },
-    {
         "UpdateStageName":"Factorio Extract 2",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"tar -xJf factorio.tar.xz --strip-components=1 >/dev/null 2>&1",
+        "UpdateSourceArgs":"tar -xJf factorio/server/factorio.tar.xz --strip-components=1 >/dev/null 2>&1",
         "SkipOnFailure":false
     },
     {
@@ -66,7 +58,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"rm -f factorio.tar.xz\"",
+        "UpdateSourceArgs":"rm -f factorio/server/factorio.tar.xz\"",
         "SkipOnFailure":false
     },
     {
