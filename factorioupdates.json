@@ -50,7 +50,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"cd factorio/server",
+        "UpdateSourceArgs":"cd /factorio/server",
         "SkipOnFailure":false
     },
     {
